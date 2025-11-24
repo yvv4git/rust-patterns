@@ -4,3 +4,5 @@ pub mod factory_method;
 pub mod factory;
 pub mod abstract_factory;
 pub mod builder;
+pub mod object_pool;
+pub mod lazy_initialization;
