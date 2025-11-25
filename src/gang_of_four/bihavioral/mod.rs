@@ -1,3 +1,4 @@
+pub mod chain_of_responsibility;
 pub mod command;
 pub mod iterator;
 pub mod mediator;
