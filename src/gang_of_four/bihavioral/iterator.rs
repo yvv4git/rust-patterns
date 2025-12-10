@@ -18,6 +18,7 @@ impl Names {
         Names { names }
     }
 
+    #[warn(mismatched_lifetime_syntaxes)]
     pub fn create_iterator(&self) -> NamesIterator {
         NamesIterator {
             names: &self.names,
